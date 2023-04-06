@@ -1144,9 +1144,9 @@ class HmssdkFlutterPlugin :
     }
 
     private fun disposePIP() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            activity.setPictureInPictureParams(PictureInPictureParams.Builder().setAutoEnterEnabled(false).build())
-        }
+        // if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+        //     activity.setPictureInPictureParams(PictureInPictureParams.Builder().setAutoEnterEnabled(false).build())
+        // }
     }
 
     private val hmsStatsListener = object : HMSStatsObserver {
